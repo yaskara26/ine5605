@@ -7,5 +7,5 @@
 - [x] Exercício 4
 - [x] Exercício 5
 - [x] Exercício 6
-- [ ] Exercício 7
+- [x] Exercício 7
 - [ ] Exercício 8
