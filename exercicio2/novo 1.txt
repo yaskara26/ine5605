@@ -1,0 +1,36 @@
+Cliente
+[] cpf: int
+[] nome: string
+[] endereco: string
+[] telefone: string
+[] email: string
+
+Nota_fiscal //(representação da venda) //
+[] cliente: Cliente
+[] numero_nota: int
+[] data: Data
+[] vendedor: Vendedor
+[] transportadora: string
+[] impostos: float
+[] produto_vendido: string
+[] valor_total: float
+
+Produtos
+[] codigo: int
+[] descrição: string
+[] quantidade_vendida: int
+[] valor_unitario: float
+
+Vendedor
+ //como relacionar vendedor com cliente
+ // como relacionar todas as notas fiscais do vendedor
+ // como relacionar todas as notas fiscais da mesma data
+[] nome: string
+
+Loja
+[] vendedores: Vendedor[]
+[] notas_fiscais: Nota_fiscal[]
+[] clientes: Cliente[]
+busca_vendas_periodo: notas_fiscais: Nota_fiscal[] // vendas num determinado periodo
+total_vendas_vendedor: float // valor total vendas de um determinado vendedor
+ 
