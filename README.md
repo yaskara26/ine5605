@@ -6,6 +6,6 @@
 - [x] Exercício 3
 - [x] Exercício 4
 - [x] Exercício 5
-- [ ] Exercício 6
+- [x] Exercício 6
 - [ ] Exercício 7
 - [ ] Exercício 8
